@@ -1,0 +1,492 @@
+#hed{
+ height: 100px;
+ background-color: rgb(182, 0, 0); 
+}
+.stats2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+}
+#menu{
+  height: 100px;
+  background-color: rgb(182, 0, 0); 
+}
+.item{
+  user-select: none;
+  background-color: rgb(182, 0, 0); 
+  color: rgb(255, 255, 255);
+}
+.ant-menu-item-selected {
+  background-color: rgb(182, 0, 0)  !important;
+  color:blue;
+}
+.ant-menu-overflow-item ant-menu-overflow-item-rest ant-menu-submenu ant-menu-submenu-horizontal ant-menu-submenu-selected{
+  background-color: rgb(182, 0, 0) !important;
+}
+.ant-menu-submenu{
+  background-color: rgb(182, 0, 0) !important;
+}
+.ant-menu-overflow-item ant-menu-item ant-menu-item-selected ant-menu-item-only-child item{
+  border:none;
+}
+#items{
+  
+  margin-left: 80px;
+  margin-top:15px;
+  font-size: 25px;
+
+}
+.logo{
+  margin-left: 20px;
+  margin-right: 0;
+  margin-top:15px;
+  user-select: none;
+  color: rgb(255, 255, 255);
+}
+.logo1{
+  user-select: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  width: 50px;
+  height: 100px;
+  z-index: 100;
+  margin-left:50px;
+}
+.logo2{
+  user-select: none;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+#routes{
+  width: 100%;
+  
+  height: 800px;
+  margin-top:20px;
+
+}
+#list{
+  position: relative;
+  width: 1000px;
+  height:500px;
+
+  margin:0;
+  z-index: 1;
+  cursor:pointer;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  gap: 13px;
+  visibility: hidden;
+  background-color: rgb(180, 17, 17); 
+  
+  
+}
+.teamname{
+
+  color: rgb(238, 228, 228);
+  font-size:15px;
+}
+.stats{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 250px;
+}
+.infoo{
+  display: flex;
+  flex-direction: column;
+
+  border-bottom:2px solid rgb(228, 124, 5);
+  font-size: 20px;
+  margin-top:auto;
+  max-width: 300px;
+  margin-right: auto;
+  min-height:300px;
+}
+.icons{
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.tittleic{
+  margin-bottom: 0;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.stat{
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.stat1{
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.stat2{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+#teamname{
+  font-size: 30px;
+  margin-left: 850px;
+  margin-top: 40px;
+  
+}
+.date{
+  margin-top:20px;
+  margin-left: 60px;
+  margin-right: 0;
+}
+.vs{
+  margin-left: 140px;
+  margin-top:20px;
+}
+.matchs{
+  display: flex;
+  flex-direction: column;
+  margin-left: 650px;
+  margin-top:160px;
+}
+.match{
+  display: flex;
+  min-height: 70px;
+  width: 800px;
+  border:1cm rgb(243, 158, 0) solid;
+  border-width: thin;
+  font-size: 18px;
+
+}
+.numb{
+  height: 70px;
+  min-width: 80px;
+  background-color: rgb(236, 159, 15);
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+#matchtit{
+  
+  font-family:matches;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  
+  position: relative;
+ 
+  top:60px;
+}
+@font-face {
+  font-family: matches;
+  src: url("C:\Users\Klokk\Desktop\nba\app\src\fonts\Clean Sports Stencil.otf");
+}
+@font-face {
+  font-family: matches2;
+  src: url("C:\Users\Klokk\Desktop\nba\app\src\fonts\Cherione-Normal.ttf");
+}
+.search{
+  max-width: 500px;
+  min-width: 100px;
+  min-height: 40px;
+  margin-left:650px;
+  margin-top:40px;
+}
+.player{
+  cursor: pointer;
+  min-width: 800px;
+  min-height:40px;
+  border: 1px solid rgb(189, 189, 189);
+}
+.players{
+  display: flex;
+  flex-direction: column;
+  overflow:auto;
+  
+  margin-left: 440px;
+  margin-top: 100px;
+  height: 600px;
+  width: 900px;
+}
+#playername{
+  font-size: 23px;
+  margin-left:100px;
+  font-weight: 490;
+  color:black;
+}
+#nomatch{
+  width: 50px;
+  height:50px;
+  position: relative;
+  font-size: 50px;
+  top:180px;
+  margin-left: 39%;
+}
+.playerpic{
+  width: 400px;
+  height: 300px;
+  margin-left: 650px;
+}
+.playertit{
+  user-select: none;
+  font-family:matches;
+  font-size: 30px;
+}
+.stats1{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+}
+.stat3{
+  margin-left:130px;
+  margin-top:50px;
+}
+.stat4{
+  margin-left:90px;
+  margin-top:50px;
+}
+.stat5{
+ display: flex;
+ justify-content: center;
+  margin-top:50px;
+}
+#tithom{
+    position: relative;
+    top:30px;
+    margin-left:630px;
+    user-select: none;
+    font-family:matches;
+    font-size: 30px;
+  
+}
+.matches{
+  display: flex;
+  flex-direction: column;
+  overflow:auto;
+  margin-bottom:400px;
+  margin-left: 50px;
+  margin-top: 80px;
+  height: 800px;
+  width: 1800px;
+  gap:10px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+
+}
+.match1{
+  
+  min-width: 1500px;
+  min-height:70px;
+
+  font-size: 20px;
+  border-bottom: 1px rgb(250, 242, 242) solid;
+}
+#vs{
+  margin-left:80px;
+  position: relative;
+  top:40px;
+  color: rgb(56, 147, 221);
+  font-weight: 400;
+}
+#scores{
+  position: relative;
+  top:40px;
+  margin-left:30px;
+}
+#matchdate{
+  font-family: matches2;
+ font-size: 28px;
+ font-weight: 100;
+}
+#footter{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  height:300px;
+  background-color:rgb(182, 0, 0);  
+  margin-top: 300px;
+}
+#about{
+  color: white;
+  font-size: 20px;
+  margin-left: 130px;
+  position: relative;
+  top:80px;
+}
+#owner{
+  color: white;
+  font-size: 20px;
+  right: 56px;
+  position: relative;
+  top:140px;
+}
+@media only screen and (max-width: 600px) {
+    #items{
+      margin-left: 17px;
+    }
+    .logo1{
+      margin-left:8px;
+    }
+    #tithom{
+      font-size: 18px;
+      margin-left: 23px;
+    }
+    .matches{
+      width:90%;
+      margin-left: 21px;
+      height: 900px;
+    }
+    .match1{
+      min-width:70%;
+      margin-right:45px;
+    }
+    #matchdate{
+      font-size: 13px;
+      position: relative;
+      top:38px;
+      margin-left: 5px;
+    }
+    #vs{
+      font-size: 14px;
+      margin-left: 8px;
+    }
+    #scores{
+      top:-30px;
+      margin-left:90px;
+    }
+    #hed{
+     overflow: hidden;
+     }
+     #about{
+      color: white;
+      
+      margin-left: 78px;
+      position: relative;
+      top: 50px;
+      font-size: 15px;
+     }
+     #owner{
+      font-size: 15px;
+      color: white;
+      
+      right: 44px;
+      position: relative;
+      top: 98px;
+     }
+     #footter{
+      height: 180px;
+     }
+     #nomatch{
+      position: relative;
+    font-size: 30px;
+    top: 180px;
+    margin-left: 18%;
+     }
+     .player{
+      min-width: 10px;
+    width: 100%;
+     }
+     .search {
+      max-width: 351px;
+      min-width: 77px;
+      min-height: 40px;
+      margin-left: 17px;
+      margin-top: 40px;
+  }
+  .players {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    margin-left: -24px;
+    margin-top: 47px;
+    height: 900px;
+    width: 95%;
+}
+.playertit{
+  position: relative;
+  top:30px;
+  font-size: 20px;
+  margin-left: 12%;
+}
+.playerpic {
+  width: 300px;
+  height: 247px;
+  margin-left: 44px;
+}
+.stats1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 10%;
+}
+.tittleic {
+  margin-bottom: 0;
+  margin-left: 99px;
+  margin-top: 10px;
+} 
+.infoo {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid rgb(228, 124, 5);
+  font-size: 18px;
+  min-height: 0px;
+  height: 20px;
+  width: 70%;
+  margin-top:-30px;
+}
+.icons{
+  margin-top:1px;
+}
+.stat5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.stats2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 10%;
+
+}
+
+.stat4 {
+    margin-left: 90px;
+    margin-top: -2px;
+}
+.stat3 {
+  margin-left: 130px;
+  margin-top: 4px;
+}
+#list {
+  FONT-WEIGHT: 100;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 13px;
+  visibility: hidden;
+  background-color: rgb(180, 17, 17);
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 125px;
+}
+#matchtit {
+  font-family: matches;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+}
+}
